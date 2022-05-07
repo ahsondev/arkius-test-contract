@@ -10,6 +10,11 @@
         "internalType": "string",
         "name": "symbol_",
         "type": "string"
+      },
+      {
+        "internalType": "string",
+        "name": "baseUri_",
+        "type": "string"
       }
     ],
     "stateMutability": "nonpayable",
@@ -192,14 +197,14 @@
   {
     "inputs": [
       {
-        "internalType": "string",
-        "name": "uri",
-        "type": "string"
+        "internalType": "uint256",
+        "name": "count",
+        "type": "uint256"
       }
     ],
     "name": "mint",
     "outputs": [],
-    "stateMutability": "payable",
+    "stateMutability": "nonpayable",
     "type": "function"
   },
   {
@@ -319,6 +324,19 @@
       }
     ],
     "name": "setApprovalForAll",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "string",
+        "name": "baseUri_",
+        "type": "string"
+      }
+    ],
+    "name": "setBaseUri",
     "outputs": [],
     "stateMutability": "nonpayable",
     "type": "function"

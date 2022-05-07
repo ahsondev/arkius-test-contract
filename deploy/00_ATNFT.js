@@ -14,7 +14,7 @@ module.exports = async ({getNamedAccounts, deployments}) => {
 
   const token = await deploy('ATNFT', {
     from: account0,
-    args: ["ATNFT", "ATNFT"],
+    args: ["ATNFT3", "ATNFT3", ""],
     log: true,
   });
 
