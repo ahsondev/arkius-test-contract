@@ -14,7 +14,7 @@ module.exports = async ({getNamedAccounts, deployments}) => {
 
   const token = await deploy('ATNFT', {
     from: account0,
-    args: ["ATNFT3", "ATNFT3", ""],
+    args: ["ATNFT3", "ATNFT3", "https://braindance.mypinata.cloud/ipfs/QmVajyUuJxdpq8fFRb2MkX7SBpcAJ5BxRe4rihkiLucyW2/"],
     log: true,
   });
 

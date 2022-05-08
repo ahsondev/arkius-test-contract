@@ -1,3 +1,3 @@
 # Verify
-npx hardhat verify --network rinkeby 0x569bCf53CcEc7cb0025f68F47c3Fdd2aA6244A95 "ATNFT" "ATNFT"
+npx hardhat verify --network fuji 0xD760b4ff7F51D21b20Ed03d7bd67B27761815183 "ATNFT3" "ATNFT3" ""
 
